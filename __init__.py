@@ -2,7 +2,6 @@ from py4web import action
 from py4web import response
 
 #index is used without html as I dont need html code
-#a change to test git
 @action("index")
 def index():
     return "Hello World"
