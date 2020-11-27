@@ -1,7 +1,8 @@
 from py4web import action
 from py4web import response
 
-#das index wird ohne html verwendet, ich brauche keinen html code.
+#index is used without html as I dont need html code
+#a change to test git
 @action("index")
 def index():
     return "Hello World"
